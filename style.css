@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,900&display=swap");
+
+:root {
+  --color: #ff6734;
+  --white: #fff;
+  --black: #1c2b2d;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+  --twitter: hsl(207, 93%, 46%);
+  --fb: hsl(221, 89%, 41%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  box-shadow: none !important;
+}
+html {
+  font-size: 10px;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+img {
+  width: 100%;
+}
+.center {
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+}
+.center1 {
+top: 70%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+}
+.center2 {
+top: 52%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+}
+
+
+
+/* ?======================== MEDIA QUERIES SECTION ======================== */
+@media screen  and (max-width: 768px){
+  
+}
